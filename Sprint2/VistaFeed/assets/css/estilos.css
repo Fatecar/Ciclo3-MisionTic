@@ -1,0 +1,95 @@
+body {
+    background-color:rgb(255, 230, 255);
+}
+
+header{
+    background: gray;
+    
+}
+
+header .infoperfil, header .buscador, header .logo {
+    display:inline-block;
+
+}
+
+header ul li{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+header .logo{
+    color: rgb(102, 0, 102);
+    font-size: 15;
+    font-family: cooper;
+    vertical-align: top;
+    margin: -7px 0px 0px 70px;
+    block-size: 0%;
+}
+header .infoperfil{
+    float: right;
+    margin: -55px 70px 0px 0px;
+    vertical-align: top;
+    
+
+}
+header .infoperfil img {
+    width: 50px;
+}
+
+header .infoperfil ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+header .infoperfil ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    
+}
+
+header .buscador {
+    margin: 15px 300px 0px 400px;
+    vertical-align: top;
+    
+}
+
+section {
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+section .articulos {
+    margin-left: 200px;
+    margin-right: 400px;
+    border-right: 1px solid #726565;;
+}
+
+section .articulos .descripcion .nombre ul li {
+    display: inline-block;
+    margin-right: 40;
+    block-size: 0;
+}
+section .articulos .descripcion .nombre img{
+    width: 70;
+}
+
+section .articulos .descripcion .fechas ul li{
+    display: inline-block;
+    margin-right: 40;
+    
+}
+section .articulos .descripcion .fechas{
+    margin-left: 114;
+    margin-top: -10;
+}
+
+section .articulos .publicacion img{
+    width: 700;
+}
+
+
+
+
+
+
