@@ -39,7 +39,7 @@ header .infoperfil img {
 header .infoperfil ul li {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 header .infoperfil ul li a {
     text-decoration: none;
@@ -49,7 +49,7 @@ header .infoperfil ul li a {
 }
 
 header .buscador {
-    margin: 15px 300px 0px 400px;
+    margin: 15px 450px 0px 400px;
     vertical-align: top;
     
 }
@@ -57,12 +57,13 @@ header .buscador {
 section {
     margin-bottom: 100px;
     margin-top: 20px;
+    width: 70%;
+    float: left;
 }
 
 section .articulos {
-    margin-left: 200px;
-    margin-right: 400px;
     border-right: 1px solid #726565;;
+    margin-left:85;
 }
 
 section .articulos .descripcion .nombre ul li {
@@ -87,6 +88,23 @@ section .articulos .descripcion .fechas{
 section .articulos .publicacion img{
     width: 700;
 }
+
+nav{
+    width: 30%;
+    float: right;
+}
+
+nav .container{
+  width: 100%;
+
+}
+
+nav .mensajes ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
 
 
 
